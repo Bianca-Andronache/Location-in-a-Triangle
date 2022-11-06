@@ -35,8 +35,8 @@ public class Triangle {
                 break;
             else{
                 String[] p = p_str.split(" ");
-                M.x = Integer.parseInt(p[0]);
-                M.y =Integer.parseInt(p[1]);
+                M.x = Float.parseFloat(p[0]);
+                M.y =Float.parseFloat(p[1]);
                 
                 switch(ob.signDet(M, A, B)){
                     case 1: if(ob.signDet(M,B,C)==1){
